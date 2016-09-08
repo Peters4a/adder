@@ -1,5 +1,14 @@
 // A very simple program to show, how to implement
 // a solver for Solver4all in the programming language Go.
+//
+// The solver reads two numbers encoded as JSON object
+// with the properties "A" and "B" and 
+// returns the sum of the two numbers.
+//
+// input: {"A":number,"B":number}
+//
+// output: number
+//
 package main
 
 import (
